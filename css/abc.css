@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.lucas
+{
+	display: grid;
+	grid-template-columns: 40% 20% 40%;
+	grid-template-rows: 60px 200px 500px 1100px 1200px 1000px;
+    grid-template-areas: 
+		"main main main"
+		"abc abc abc"
+		"cat cat cat"
+		"juice juice juice"
+	    "na na na"
+		"mi mi mi"
+}
+.hand
+{
+	
+	background-color:;
+	border: 1px solid #FFFFFF;
+}
+.hand01
+{
+	grid-area: main;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.hand02
+{
+	grid-area: abc;
+	background-color:#FFFFFF;
+    text-align: center;
+}
+.hand03
+{
+	grid-area: cat;
+}
+.hand04
+{
+	grid-area: juice;
+	text-align: center
+}
+.hand05
+{
+	grid-area: na;
+	text-align: center;
+}
+.hand06
+{
+	grid-area: mi;
+}
+.number1
+{
+	width: 20%;
+	height: 400px;
+	background-color:#FFFFFF;
+	float: left;
+	margin: 2% 6% 2% 7%;
+}
+
+.box
+{
+	width: 86%;
+	height: 600px;
+	background-color: #9B9293;
+	float: left;
+	margin: 2% 6% 2% 7%;
+	overflow: hidden;
+}
+.lucas ul li
+{
+	padding: 20px;
+	float: right;
+	padding: 20px;	
+}
+.lucas ul li:hover
+{
+	background-color: #A19D9D;
+	width: 5%;
+	height: 200px;
+}
+
+.item img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.item:hover img
+{
+	background-color: #A19D9D;
+	width: 12%;
+	height: 170px;
+}
+.number1 img
+{
+	opacity: 1;
+	transform: scale(1);
+	transition: all 0.5s linear;
+}
+.number1:hover img
+{
+	opacity: 0.5;
+	transform: rotate(10deg);
+}
+.parents
+{
+	text-align: center;
+}
+.number0
+{
+	width: 43%;
+	height: 335px;
+	background-color:antiquewhite;
+	float: left;
+	margin: 2% 6% 2% 7%;
+}
+.number10
+{
+	width: 43%;
+	height: 700px;
+	background-color:#FFFFFF;
+	float: right;
+	margin: 1% 5% 5% 7%;
+	overflow: hidden;	
+}
+.number10 img
+{
+	opacity: 1;
+	transform: scale(1.3);
+	transition: all 0.5s linear;
+}
+.number10:hover img
+{
+	opacity: 0.9;
+	transform: rotate(1turn);
+}
